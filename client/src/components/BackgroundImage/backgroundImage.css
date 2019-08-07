@@ -1,0 +1,90 @@
+.backgroundImage {
+    width: 100%;
+    height: auto;
+
+    position: fixed;
+    top: -215px;
+    /* top: -200px; */
+    left: 0px;
+
+    z-index: -1;
+}
+
+/* ---------------------------------------- */
+/* ---------------------------------------- */
+/* MEDIA QUERIES */
+/* When Screen Size Max-Width is 1030px */
+/* (1024px is viewport width of iPad Pro in vertical) */
+/* (1366px is viewport height of iPad Pro in vertical) */
+@media screen and (max-width: 1030px) {
+
+    .backgroundImage {
+        width: 100%;
+        height: auto;
+
+        position: fixed;
+        top: 0px;
+    }
+
+}
+
+/* -------------------- */
+
+/* When Screen Size Max-Width is 980px */
+/* (768px is viewport width of iPad in vertical) */
+/* (1024px is viewport height of iPad in vertical) */
+@media screen and (max-width: 980px) {
+
+    .backgroundImage {
+        width: 100%;
+        height: auto;
+
+        position: fixed;
+        top: 0px;
+    }
+
+}
+
+/* -------------------- */
+
+/* When Screen Size Max-Width is 750px */
+/* (375px is viewport width of iPhone X in vertical) */
+@media screen and (max-width: 750px) {
+
+    .backgroundImage {
+        width: auto;
+        height: 100%;
+
+        position: fixed;
+        top: 0px;
+    }
+
+}
+
+/* -------------------- */
+
+/* When Screen Size Max-Width is 340px */
+/* (320px is viewport width of iPhone 5/SE in vertical) */
+@media screen and (max-width: 340px) {
+
+    .backgroundImage {
+        /* 
+        Currently the image is sized to height: 100% from the above media query to accomodate for
+        Google Chrome inspector mode iPhone 5/SE.  
+        If we wanted to accomodate for an actual iPhone 5/SE device (Safari browser),
+        uncomment the following:
+        */
+
+        /* 
+        iPhone Safari top nav and bottom nav make the main viewing part for the website smaller
+        and upon testing on an actual iPhone 5, we saw that we needed to set the width to 100% instead
+        of the height to 100% 
+        */
+        /* width: 100%;        
+        height: auto;
+
+        position: fixed;
+        top: 0px; */
+    }
+
+}
