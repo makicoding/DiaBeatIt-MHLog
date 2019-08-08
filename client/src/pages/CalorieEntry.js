@@ -759,6 +759,8 @@ class CalorieEntry extends React.Component {
                                             <option value="Plum (0.5 Cal/g)">Plum (0.5 Cal/g)</option>
                                             <option value="Pork - minced (3.9 Cal/g)">Pork - minced (3.9 Cal/g)</option>
                                             <option value="Pork - steak (2.5 Cal/g)">Pork - steak (2.5 Cal/g)</option>
+                                            <option value="Potato (0.9 Cal/g)">Potato (0.9 Cal/g)</option>
+                                            <option value="Potato - sweet (0.9 Cal/g)">Potato - sweet (0.9 Cal/g)</option>
                                             <option value="Prune (2.4 Cal/g)">Prune (2.4 Cal/g)</option>
                                             <option value="Pumpkin (0.2 Cal/g)">Pumpkin (0.2 Cal/g)</option>
                                             <option value="Raisin (3 Cal/g)">Raisin (3 Cal/g)</option>
@@ -805,6 +807,7 @@ class CalorieEntry extends React.Component {
                                             <option value="Whipped cream (2.5 Cal/g)">Whipped cream (2.5 Cal/g)</option>
                                             <option value="Whipping cream (3.4 Cal/g)">Whipping cream (3.4 Cal/g)</option>
                                             <option value="Worcestrshre sauce (0.8 Cal/g)">Worcestrshre sauce (0.8 Cal/g)</option>
+                                            <option value="Yam (1.2 Cal/g)">Yam (1.2 Cal/g)</option>
                                             <option value="Yellowtail (1.5 Cal/g)">Yellowtail (1.5 Cal/g)</option>
                                             <option value="Yogurt - lofat (0.6 Cal/g)">Yogurt - lofat (0.6 Cal/g)</option>
                                             <option value="Yogurt - nonfat (0.6 Cal/g)">Yogurt - nonfat (0.6 Cal/g)</option>
